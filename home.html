@@ -12,6 +12,10 @@
     .navbar-toggler-icon {
       color: azure;
     }
+    .border1{
+      border-left: 8px wavy white;
+
+    }
     .bg{
       background-image: url('./images/plane.jpg');
       background-repeat: no-repeat;
@@ -131,7 +135,7 @@
       </div>
     </div>
     <div class="row">
-      <div class="col bg-dark p-3">
+      <div class="col border1 bg-dark p-3">
         <div class="row">
           <div class="col">
             <div class="btn-group">
@@ -171,10 +175,10 @@
         
           <!-- cards -->
           <div class="row p-3">
-            <div class="col">
+            <div class=" col">
               <div class="card p-3 rounded bg1 text-secondary">
                <span><i class="bi bi-geo-alt"></i> Form</span>
-               <select class="form-select text-secondary mt-3 bg-dark" aria-label="Default select example">
+               <select class="form-select text-secondary border-dark mt-3 bg-dark" aria-label="Default select example">
                 <option  selected>Select Location</option>
                 <option value="1">One</option>
                 <option value="2">Two</option>
@@ -184,17 +188,28 @@
             </div>
 
             <div class="col">
-              <div class="card rounded bg1">
-                
+              <div class="card p-3 rounded bg1 text-secondary">
+               <span><i class="bi bi-send"></i> To</span>
+               <select class="form-select text-secondary border-dark mt-3 bg-dark" aria-label="Default select example">
+                <option  selected>Select Location</option>
+                <option value="1">One</option>
+                <option value="2">Two</option>
+                <option value="3">Three</option>
+              </select>
               </div>
             </div>
 
             <div class="col">
-              <div class="card rounded bg1">
-                
+              <div class="card p-3 rounded bg1 text-secondary">
+               <span><i class="bi bi-calendar"></i> Departure</span>
+               <select class="form-select text-secondary border-dark mt-3 bg-dark" aria-label="Default select example">
+                <option  selected>Select Date</option>
+                <option value="1">One</option>
+                <option value="2">Two</option>
+                <option value="3">Three</option>
+              </select>
               </div>
             </div>
-            
           </div>
           <!-- /cards -->
       </div>
